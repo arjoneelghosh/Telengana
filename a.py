@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import re
 
-# Directory where cleaned CSVs are stored (2014–2024)
+# Directory where cleaned CSVs are stored (2014 – 2024)
 DATA_DIR = r"C:\Users\footb\Desktop\Agriculture Forecasting\Datasets\Weather_Dataset\final"
 
 # Expected schema
