@@ -3,7 +3,7 @@ import pandas as pd
 # Load real dataset
 df2020 = pd.read_csv("final_daily_rainfall_2020.csv")
 
-# Extract unique district-mandal pair
+# Extract unique district-mandal pairs
 unique_pairs = df2020[['District', 'Mandal']].drop_duplicates().sort_values(by=['District', 'Mandal']).reset_index(drop=True)
 
 # Add placeholder column
